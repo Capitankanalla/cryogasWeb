@@ -1,0 +1,10 @@
+# Dependències
+node_modules/
+
+# Entorn i claus
+.env
+
+# Sistema operatiu i editor
+.DS_Store
+Thumbs.db
+.vscode/
