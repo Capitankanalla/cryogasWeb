@@ -1,0 +1,40 @@
+{
+  "contacto_rapido": {
+    "telefono": "+34 933 847 116",
+    "email": "cryo@cryogas.es"
+  },
+  "tagline": "Especialistas en soluciones criogénicas desde 1998",
+  "navegacion": {
+    "inicio": "Inicio",
+    "empresa": "Empresa",
+    "industrial": "Industrial",
+    "criobiologia": "Criobiologia",
+    "blog": "Blog",
+    "contacto": "Contacto"
+  },
+  "hero": {
+    "titulo": "CryoGas, más de 25 años prestando servicios de máxima calidad",
+    "descripcion": "Especialistas en instalación, reparación y mantenimiento de equipos criogénicos. Componentes criobiológicos de máxima calidad para la industria y laboratorios. La capacitación en el uso de soluciones criogénicas es fundamental para el personal médico y técnico."
+  },
+  "estadisticas": {
+    "experiencia": {
+      "valor": "27+",
+      "etiqueta": "Años de experiencia"
+    },
+    "proyectos": {
+      "valor": "500+",
+      "etiqueta": "Proyectos completados"
+    },
+    "servicio": {
+      "valor": "100%",
+      "etiqueta": "Servicio técnico propio"
+    }
+  },
+  "servicios": {
+    "titulo_seccion": "NUESTROS SERVICIOS",
+    "destacado_titulo": "Componentes Criogénicos de Alta Calidad",
+    "p1": "Nuestros productos y soluciones criogénicas están diseñados para cumplir con los más altos estándares de calidad.",
+    "p2": "Distribuimos componentes y equipos criogénicos de los principales fabricantes mundiales, con garantía y soporte técnico especializado.",
+    "p3": "Las soluciones criogénicas son fundamentales para el desarrollo de nuevas tecnologías en el campo de la salud e industria alimentaria."
+  }
+}

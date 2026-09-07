@@ -10,7 +10,6 @@ Reconstrucció completa i migració del lloc web corporatiu de **CryoGas SL** de
 
 ## 🚀 Stack Tecnològic
 - **Backend:** Node.js, Express.js
-- **Motor de Plantilles:** EJS (Embedded JavaScript templates)
 - **Frontend:** HTML5, CSS3 / SASS, JavaScript vanil·la (ES6+)
 - **Serveis Externs:** Nodemailer / Resend (per al formulari de contacte)
 - **Control de Versions & CI/CD:** Git, GitHub

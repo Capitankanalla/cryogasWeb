@@ -1,0 +1,25 @@
+{
+  "name": "cryogasweb",
+  "version": "1.0.0",
+  "description": "Reconstrucció completa i migració del lloc web corporatiu de **CryoGas SL** des de WordPress cap a una arquitectura lleugera, ràpida i personalitzada basada en **Node.js** i **Express**.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Capitankanalla/cryogasWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Capitankanalla/cryogasWeb/issues"
+  },
+  "homepage": "https://github.com/Capitankanalla/cryogasWeb#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
