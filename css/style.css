@@ -3,6 +3,7 @@
   --dark: #1a1a1a;
   --light: #f4f4f4;
   --text: #333333;
+  --h1: #00ccff;
 }
 
 * {
@@ -122,6 +123,7 @@ body {
   font-size: clamp(2.2rem, 4vw, 4rem);
   line-height: 1.1;
   margin-bottom: 1rem;
+  color: var(--h1);
 }
 
 .hero-content p {
@@ -152,7 +154,7 @@ body {
 .stat-card h2 {
   font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1;
-  color: #fff;
+  color: #00ccff;
   margin-bottom: 0.25rem;
 }
 
