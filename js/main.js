@@ -73,3 +73,22 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(err => console.error('Error carregant es.json:', err));
 });
+
+      // Modals dels serveis
+      document.querySelectorAll('.service-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const modalId = card.dataset.modal;
+          const modal = document.getElementById(modalId);
+
+          if (modal) {
+            modal.showModal();
+          }
+        });
+      });
+
+      // Tancar modals
+      document.querySelectorAll('.close-modal-btn').forEach(button => {
+        button.addEventListener('click', () => {
+          button.closest('dialog').close();
+        });
+      });

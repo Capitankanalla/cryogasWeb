@@ -35,6 +35,60 @@
     "destacado_titulo": "Componentes Criogénicos de Alta Calidad",
     "p1": "Nuestros productos y soluciones criogénicas están diseñados para cumplir con los más altos estándares de calidad.",
     "p2": "Distribuimos componentes y equipos criogénicos de los principales fabricantes mundiales, con garantía y soporte técnico especializado.",
-    "p3": "Las soluciones criogénicas son fundamentales para el desarrollo de nuevas tecnologías en el campo de la salud e industria alimentaria."
+    "p3": "Las soluciones criogénicas son fundamentales para el desarrollo de nuevas tecnologías en el campo de la salud e industria alimentaria.",
+    "boton_cerrar": "Cerrar",
+    "etiquetas": {
+      "beneficios": "Beneficios:",
+      "productos": "Tipos de productos:",
+      "aplicaciones": "Aplicaciones:",
+      "diferencial": "Valor diferencial:",
+      "clientes": "Clientes:"
+    },
+    "lineas": {
+      "industrial": {
+        "titulo": "Soluciones para Industrial",
+        "resumen": "Ingeniería y equipos para el trasvase y dosificación de líquidos criogénicos con máximo rendimiento y seguridad.",
+        "descripcion": "Ingeniería y equipos para el trasvase y dosificación de líquidos criogénicos (Nitrógeno, Oxígeno, Argón, Gas natural licuado y CO2) con un máximo rendimiento y seguridad en las plantas de producción.",
+        "beneficios": "Reducción de pérdidas, mayor eficiencia energética, mayor seguridad en las operaciones y manipulaciones, integración en líneas existentes.",
+        "productos": "Tuberías aisladas al vacío, dosificadores de nitrógeno líquido, estaciones automáticas para llenado de botellas de CO2, distribución y reparación de bombas criogénicas.",
+        "aplicaciones": "Túneles de congelación, armarios criogénicos, bebidas no carbonatadas, aceites, cerveceras, envasado en PET/lata, productos para importación, productos para alargar la vida útil y trasvase de gases licuados.",
+        "diferencial": "Experiencia de más de 25 años, ingeniería a medida, instalación y servicio técnico integral y personalizado.",
+        "clientes": "Industria de alimentación y bebidas, centros de desarrollo e investigación e industria aeroespacial.",
+        "nota": "La seguridad en el manejo de soluciones criogénicas es nuestra prioridad en todos los servicios que ofrecemos."
+      },
+      "criobiologia": {
+        "titulo": "Soluciones para Criobiología",
+        "resumen": "Ingeniería y equipos para la criopreservación controlada y monitorizada.",
+        "descripcion": "Ingeniería y equipos para la criopreservación controlada y monitorizada. Incluye desde congeladores programables SY-LAB y contenedores de almacenaje hasta sistemas de monitorización de salas criogénicas.",
+        "beneficios": "Trazabilidad, reducción de pérdidas y equipos producto sanitario clase IIa.",
+        "productos": "Congeladores programables, contenedores para líquido o muestras de aluminio o inoxidables, sistemas de control de oxígeno y CO2 en sala, monitorización de temperaturas de contenedores y sistemas de alarma.",
+        "aplicaciones": "Criobancos, FIV, bancos de sangre, centros de investigación y farmacéuticas.",
+        "diferencial": "Productos de primeras marcas, monitorización y alarmas locales y remotas, ingeniería para soluciones en salas de criobiología, accesorios para todo tipo de soluciones y variedad de productos.",
+        "clientes": "Hospitales, centros de investigación, universidades y laboratorios de biotecnología.",
+        "nota": "Las soluciones criogénicas son aplicadas en laboratorios para optimizar procesos de investigación y desarrollo."
+      },
+      "monitorizacion": {
+        "titulo": "Monitorización y Seguridad Ambiental",
+        "resumen": "Soluciones de detección y monitorización para garantizar ambientes seguros en salas de criobiología.",
+        "descripcion": "Soluciones de detección fija y personal de O2/CO2, dataloggers y monitorización en la nube para garantizar ambientes seguros y conformes a normativa en salas de criobiología.",
+        "beneficios": "Prevención de anoxia/asfixia, alarmas inteligentes y conectividad para respuesta rápida y trazabilidad.",
+        "productos": "Monitores de oxígeno fijos, portátiles y con conectividad en la nube.",
+        "aplicaciones": "Salas de criobiología donde se utilice nitrógeno líquido y CO2, e incubadoras.",
+        "diferencial": "Integración de todas las señales mediante un sistema de alarma local/remoto y Ethernet; políticas y prácticas recomendadas de seguridad.",
+        "clientes": "Responsables de seguridad en laboratorio y mantenimiento de instalaciones en laboratorios criobiológicos o de investigación.",
+        "nota": "El monitoreo de soluciones criogénicas es vital para asegurar la integridad de las muestras biológicas."
+      },
+      "almacenamiento": {
+        "titulo": "Almacenamiento y Transporte de Muestras",
+        "resumen": "Contenedores criogénicos y soluciones para el almacenamiento y transporte seguro de muestras.",
+        "descripcion": "Contenedores criogénicos para almacenaje de muestras y accesorios (racks, cánisters, visotubos), transporte mediante dry-shippers y dataloggers para su trazabilidad, y polipastos para una manipulación segura de las muestras.",
+        "beneficios": "Integridad de muestras, reducción de muestras, compatibilidad de los contenedores con los dataloggers y normativa IATA.",
+        "productos": "Contenedores de almacenamiento de nitrógeno, conservación de muestra y transporte. Racks, polipastos y accesorios.",
+        "aplicaciones": "Conservación de muestras en nitrógeno líquido, transporte de muestras, manipulación de racks en contenedores y monitorización de temperaturas durante el transporte.",
+        "diferencial": "Certificación sanitaria, integración de monitorización de temperatura e informes de temperatura durante el transporte.",
+        "clientes": "Biobancos, laboratorios y servicios de investigación.",
+        "nota": "Utilizamos soluciones criogénicas que garantizan el transporte seguro de muestras a diferentes destinos."
+      }
+    }
   }
 }
