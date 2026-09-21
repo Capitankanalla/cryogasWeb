@@ -37,7 +37,7 @@ body {
 /* Contenidor del header per evitar que res surti de la pantalla */
 .main-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem 2rem;
   width: 100%;
@@ -50,6 +50,7 @@ body {
   display: flex;
   list-style: none;
   gap: 1.5rem;
+  justify-content: center;
 }
 
 .main-header a {
@@ -218,7 +219,7 @@ body {
 
 .service-card {
   padding: 2rem;
-  background: #fff;
+  background: #eae9f1;
   border: 1px solid #ddd;
   border-radius: 8px;
   cursor: pointer;
@@ -242,6 +243,8 @@ body {
 
 /* Dialogs */
 .custom-modal {
+  max-width: 1200px;
+  margin: 0 auto;
   width: min(700px, 90%);
   max-height: 85vh;
   padding: 0;
