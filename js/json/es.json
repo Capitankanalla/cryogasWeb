@@ -4,6 +4,9 @@
     "email": "cryo@cryogas.es"
   },
   "tagline": "Especialistas en soluciones criogénicas desde 1998",
+  "topbar": {
+    "texto": "Especialistas en soluciones criogénicas desde 1998"
+  },
   "navegacion": {
     "inicio": "Inicio",
     "empresa": "Empresa",
