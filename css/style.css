@@ -212,16 +212,18 @@ body {
 /* Cards de serveis */
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 500px);
   gap: 1.5rem;
+  justify-content: center;
   margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .service-card {
   padding: 2rem;
   background: #eae9f1;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 20px;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -240,6 +242,24 @@ body {
   color: #666;
 }
 
+
+@media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: minmax(0, 350px);
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .service-card {
+    padding: 1.5rem;
+  }
+}
 
 /* Dialogs */
 .custom-modal {
