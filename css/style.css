@@ -298,12 +298,23 @@ body {
 
 .modal-content li {
   margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.modal-content li strong {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.modal-content li span {
+  color: #333;
 }
 
 .modal-footer-note {
   margin-top: 1.5rem;
   font-style: italic;
-  color: #666;
+  color: #111;
+  font-weight: 700;
 }
 
 .close-modal-btn {

@@ -72,23 +72,29 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })
     .catch(err => console.error('Error carregant es.json:', err));
+
+  document.querySelectorAll('.service-card').forEach(card => {
+    const modalId = card.dataset.modal;
+    const modal = modalId ? document.getElementById(modalId) : null;
+
+    if (!modal) return;
+
+    card.addEventListener('click', () => {
+      modal.showModal();
+    });
+
+    card.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        modal.showModal();
+      }
+    });
+  });
+
+  document.querySelectorAll('.close-modal-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const dialog = button.closest('dialog');
+      if (dialog) dialog.close();
+    });
+  });
 });
-
-      // Modals dels serveis
-      document.querySelectorAll('.service-card').forEach(card => {
-        card.addEventListener('click', () => {
-          const modalId = card.dataset.modal;
-          const modal = document.getElementById(modalId);
-
-          if (modal) {
-            modal.showModal();
-          }
-        });
-      });
-
-      // Tancar modals
-      document.querySelectorAll('.close-modal-btn').forEach(button => {
-        button.addEventListener('click', () => {
-          button.closest('dialog').close();
-        });
-      });
