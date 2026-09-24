@@ -19,6 +19,33 @@
     "titulo": "CryoGas, más de 25 años prestando servicios de máxima calidad",
     "descripcion": "Especialistas en instalación, reparación y mantenimiento de equipos criogénicos. Componentes criobiológicos de máxima calidad para la industria y laboratorios. La capacitación en el uso de soluciones criogénicas es fundamental para el personal médico y técnico."
   },
+  "intro": {
+    "eyebrow": "Soluciones criogénicas",
+    "titulo": "Soluciones criogénicas integrales",
+    "descripcion": [
+      "Las soluciones criogénicas ofrecen múltiples beneficios en la conservación y manejo de materiales sensibles.",
+      "Ofrecemos servicios especializados en criogenia industrial y criobiología, respaldados por casi 40 años de experiencia en el sector.",
+      "En el ámbito de la salud, las soluciones criogénicas son esenciales para garantizar la preservación de materiales biológicos y la seguridad de los procesos críticos."
+    ],
+    "bloques": [
+      {
+        "titulo": "Mantenimiento criogénico",
+        "texto": "Servicio integral de mantenimiento preventivo y correctivo para equipos criogénicos. Garantizamos el óptimo funcionamiento de tanques, válvulas y sistemas de distribución."
+      },
+      {
+        "titulo": "Instalación de equipos criogénicos",
+        "texto": "Diseño e instalación de sistemas criogénicos completos. Desde tanques de almacenamiento hasta la distribución de gases licuados."
+      },
+      {
+        "titulo": "Componentes criobiológicos",
+        "texto": "Suministro de componentes especializados para aplicaciones criobiológicas. Válvulas, conectores, aislamiento y accesorios de alta calidad."
+      },
+      {
+        "titulo": "Conectividad y seguridad",
+        "texto": "Integración Ethernet y cloud para trazabilidad, alarmas inteligentes y cumplimiento normativo."
+      }
+    ]
+  },
   "estadisticas": {
     "experiencia": {
       "valor": "27+",
