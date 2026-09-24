@@ -23,15 +23,54 @@ body {
   background: var(--dark);
   color: #fff;
   display: flex;
-  justify-content: space-around;
-  padding: 0.5rem 2rem;
-  font-size: 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
 }
 
-.top-bar a {
+.topbar-item,
+.topbar-link,
+.top-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.top-contact {
+  gap: 1.25rem;
+}
+
+.topbar-link {
   color: #fff;
-  margin-left: 1rem;
   text-decoration: none;
+}
+
+.topbar-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: block;
+  filter: brightness(0) invert(1);
+}
+
+.topbar-item .topbar-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    flex-direction: column;
+    text-align: center;
+    padding: 0.75rem 1rem;
+  }
+
+  .top-contact {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /* Contenidor del header per evitar que res surti de la pantalla */

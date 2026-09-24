@@ -35,6 +35,40 @@ function animateCounter(element, targetNumber, suffix, duration = 1800) {
   requestAnimationFrame(tick);
 }
 
+function resetModalScroll(modal) {
+  if (!modal) return;
+
+  modal.scrollTop = 0;
+  if (typeof modal.scrollTo === 'function') {
+    modal.scrollTo({ top: 0, left: 0 });
+  }
+
+  const modalContent = modal.querySelector('.modal-content');
+  if (modalContent) {
+    modalContent.scrollTop = 0;
+    if (typeof modalContent.scrollTo === 'function') {
+      modalContent.scrollTo({ top: 0, left: 0 });
+    }
+  }
+}
+
+function focusModalTop(modal) {
+  if (!modal) return;
+
+  requestAnimationFrame(() => {
+    modal.focus({ preventScroll: true });
+    resetModalScroll(modal);
+  });
+}
+
+function prepareModalButtons(modal) {
+  const closeButton = modal.querySelector('.close-modal-btn');
+  if (closeButton) {
+    closeButton.setAttribute('tabindex', '-1');
+    closeButton.autofocus = false;
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   fetch('js/json/es.json')
     .then(response => response.json())
@@ -79,22 +113,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!modal) return;
 
+    prepareModalButtons(modal);
+
+    modal.addEventListener('close', () => {
+      resetModalScroll(modal);
+      if (document.activeElement && typeof document.activeElement.blur === 'function') {
+        document.activeElement.blur();
+      }
+    });
+
     card.addEventListener('click', () => {
+      resetModalScroll(modal);
       modal.showModal();
+      focusModalTop(modal);
     });
 
     card.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
+        resetModalScroll(modal);
         modal.showModal();
+        focusModalTop(modal);
       }
     });
   });
 
   document.querySelectorAll('.close-modal-btn').forEach(button => {
+    button.setAttribute('tabindex', '-1');
+    button.autofocus = false;
     button.addEventListener('click', () => {
       const dialog = button.closest('dialog');
-      if (dialog) dialog.close();
+      if (dialog) {
+        dialog.close();
+        resetModalScroll(dialog);
+        button.blur();
+      }
     });
   });
 });

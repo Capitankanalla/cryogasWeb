@@ -12,10 +12,19 @@
 
   <!-- Top Bar -->
   <div class="top-bar">
-    <span data-key="topbar.texto"></span>
+    <div class="topbar-item">
+      <img class="topbar-icon" src="img/wrench.svg" alt="Eina" aria-hidden="true" />
+      <span data-key="topbar.texto"></span>
+    </div>
     <div class="top-contact">
-      <a href="#" id="link-phone" data-key="contacto_rapido.telefono"></a>
-      <a href="#" id="link-email" data-key="contacto_rapido.email"></a>
+      <a href="#" id="link-phone" class="topbar-link">
+        <img class="topbar-icon" src="img/telephone.svg" alt="Telèfon" aria-hidden="true" />
+        <span data-key="contacto_rapido.telefono"></span>
+      </a>
+      <a href="#" id="link-email" class="topbar-link">
+        <img class="topbar-icon" src="img/mail.svg" alt="Correu" aria-hidden="true" />
+        <span data-key="contacto_rapido.email"></span>
+      </a>
     </div>
   </div>
 
@@ -102,7 +111,7 @@
 
 <dialog id="modal-industrial" class="custom-modal" >
   <div class="modal-content">
-    <h3 data-key="servicios.lineas.industrial.titulo"></h3>
+    <h3 data-key="servicios.lineas.industrial.titulo" autofocus></h3>
 
     <p class="subtitle" data-key="servicios.lineas.industrial.descripcion"></p>
 
@@ -138,7 +147,7 @@
 
 <dialog id="modal-criobiologia" class="custom-modal">
   <div class="modal-content">
-    <h3 data-key="servicios.lineas.criobiologia.titulo"></h3>
+    <h3 data-key="servicios.lineas.criobiologia.titulo" autofocus></h3>
 
     <p class="subtitle" data-key="servicios.lineas.criobiologia.descripcion"></p>
 
@@ -174,7 +183,7 @@
 
 <dialog id="modal-monitorizacion" class="custom-modal">
   <div class="modal-content">
-    <h3 data-key="servicios.lineas.monitorizacion.titulo"></h3>
+    <h3 data-key="servicios.lineas.monitorizacion.titulo" autofocus></h3>
 
     <p class="subtitle" data-key="servicios.lineas.monitorizacion.descripcion"></p>
 
@@ -210,7 +219,7 @@
 
 <dialog id="modal-almacenamiento" class="custom-modal">
   <div class="modal-content">
-    <h3 data-key="servicios.lineas.almacenamiento.titulo"></h3>
+    <h3 data-key="servicios.lineas.almacenamiento.titulo" autofocus></h3>
 
     <p class="subtitle" data-key="servicios.lineas.almacenamiento.descripcion"></p>
 
