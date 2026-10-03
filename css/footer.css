@@ -45,8 +45,16 @@
 
 .footer-logo {
     width: 130px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     border-radius: 6px;
+}
+
+#footer-logo1 {
+     width: 100px;         /* Ajusta aquest valor (ex: 100px o 140px) per fer-lo com vulguis */
+    height: auto; 
+    margin-top: 35px;     /* Separa el logo del telèfon (a dalt) */
+    margin-bottom: 10px;  /* Separa el logo de qualsevol text que hi hagi a sota */
+    display: block;       /* Força que es comporti com un bloc i respecti els marges */
 }
 
 .footer-copy {
