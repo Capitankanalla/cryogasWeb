@@ -1,0 +1,41 @@
+{
+    "logo": "/img/logoFooter.webp",
+    "empresa": "CryoGas S.L.",
+    "frase": "Especialistas en soluciones criogénicas desde 1998. Ofrecemos servicios integrales de mantenimiento, instalación y suministro de componentes para la industria y laboratorios.",
+    "contacte": "Contacto",
+    "adreca": "Xarol, 34 B Pol. Ind. Les Guixeres, 08915 – Badalona (Barcelona)",
+    "email": "cryo@cryogas.es",
+    "telefon": "+34 933 847 116",
+    "drets": " | Todos los derechos reservados.",
+    "redesSociales": [
+        {
+            "nombre": "Linkedin",
+            "url": "https://linkedin.com"
+        },
+        {
+            "nombre": "Twitter",
+            "url": "https://x.com"
+        }
+    ],
+    "legal": [
+        {
+            "id": "aviso-legal",
+            "text": "Aviso Legal"
+        },
+        {
+            "id": "politica-privacidad",
+            "text": "Política de Privacidad"
+        },
+        {
+            "id": "politica-cookies",
+            "text": "Política de Cookies"
+        }
+    ],
+    "cookiesBanner": {
+        "title": "Uso de cookies",
+        "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios.",
+        "reject": "Rechazar",
+        "accept": "Aceptar todas",
+        "preferences": "Configurar cookies"
+    }
+}
