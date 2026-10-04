@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Equipos y Soluciones Criogénicas para Profesionales de la Salud.">
+
   <title>CryoGas</title>
+  <link rel="preload" as="image" href="img/hero-cryogenic1.webp" fetchpriority="high">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="./css/footer.css">
 </head>
@@ -14,16 +17,16 @@
   <!-- Top Bar -->
   <div class="top-bar">
     <div class="topbar-item">
-      <img class="topbar-icon" src="img/wrench.svg" alt="Eina" aria-hidden="true" />
+      <img class="topbar-icon" src="img/wrench.svg" alt="Eina" aria-hidden="true" width="24" height="24" />
       <span data-key="topbar.texto"></span>
     </div>
     <div class="top-contact">
       <a href="#" id="link-phone" class="topbar-link">
-        <img class="topbar-icon" src="img/telephone.svg" alt="Telèfon" aria-hidden="true" />
+        <img class="topbar-icon" src="img/telephone.svg" alt="" aria-hidden="true" width="24" height="24" />
         <span data-key="contacto_rapido.telefono"></span>
       </a>
       <a href="#" id="link-email" class="topbar-link">
-        <img class="topbar-icon" src="img/mail.svg" alt="Correu" aria-hidden="true" />
+        <img class="topbar-icon" src="img/mail.svg" alt="" aria-hidden="true" width="24" height="24" />
         <span data-key="contacto_rapido.email"></span>
       </a>
     </div>
@@ -32,7 +35,7 @@
   <!-- Header & Nav -->
   <header class="main-header">
     <div class="logo">
-      <img src="img/logo_gran_II-removebg-300x68.webp" alt="CryoGas Logo">
+      <img src="img/logo_gran_II-removebg-300x68.webp" alt="CryoGas Logo" width="300" height="68" fetchpriority="high">
     </div>
     <nav>
       <ul>
@@ -46,234 +49,236 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-overlay"></div>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
 
-    <div class="hero-inner">
-      <div class="hero-content">
-        <h1 data-key="hero.titulo"></h1>
-        <p data-key="hero.descripcion"></p>
+      <div class="hero-inner">
+        <div class="hero-content">
+          <h1 data-key="hero.titulo"></h1>
+          <p data-key="hero.descripcion"></p>
+        </div>
+
+        <div class="stats-container" aria-label="Estadístiques de CryoGas">
+          <div class="stat-card">
+            <h2 class="stat-number" data-key="estadisticas.experiencia.valor"></h2>
+            <p data-key="estadisticas.experiencia.etiqueta"></p>
+          </div>
+          <div class="stat-card">
+            <h2 class="stat-number" data-key="estadisticas.proyectos.valor"></h2>
+            <p data-key="estadisticas.proyectos.etiqueta"></p>
+          </div>
+          <div class="stat-card">
+            <h2 class="stat-number" data-key="estadisticas.servicio.valor"></h2>
+            <p data-key="estadisticas.servicio.etiqueta"></p>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div class="stats-container" aria-label="Estadístiques de CryoGas">
-        <div class="stat-card">
-          <h2 class="stat-number" data-key="estadisticas.experiencia.valor"></h2>
-          <p data-key="estadisticas.experiencia.etiqueta"></p>
-        </div>
-        <div class="stat-card">
-          <h2 class="stat-number" data-key="estadisticas.proyectos.valor"></h2>
-          <p data-key="estadisticas.proyectos.etiqueta"></p>
-        </div>
-        <div class="stat-card">
-          <h2 class="stat-number" data-key="estadisticas.servicio.valor"></h2>
-          <p data-key="estadisticas.servicio.etiqueta"></p>
-        </div>
-      </div>
+    <!-- Serveis -->
+    <section class="services">
+      <h3 data-key="servicios.titulo_seccion"></h3>
+      <h2 data-key="servicios.destacado_titulo"></h2>
+      <p data-key="servicios.p1"></p>
+      <p data-key="servicios.p2"></p>
+      <p data-key="servicios.p3"></p>
+    </section>
+
+    <div class="cards-grid">
+
+      <article class="service-card" data-modal="modal-industrial" role="button" tabindex="0">
+        <h3 data-key="servicios.lineas.industrial.titulo"></h3>
+        <p data-key="servicios.lineas.industrial.resumen"></p>
+      </article>
+
+      <article class="service-card" data-modal="modal-criobiologia" role="button" tabindex="0">
+        <h3 data-key="servicios.lineas.criobiologia.titulo"></h3>
+        <p data-key="servicios.lineas.criobiologia.resumen"></p>
+      </article>
+
+      <article class="service-card" data-modal="modal-monitorizacion" role="button" tabindex="0">
+        <h3 data-key="servicios.lineas.monitorizacion.titulo"></h3>
+        <p data-key="servicios.lineas.monitorizacion.resumen"></p>
+      </article>
+
+      <article class="service-card" data-modal="modal-almacenamiento" role="button" tabindex="0">
+        <h3 data-key="servicios.lineas.almacenamiento.titulo"></h3>
+        <p data-key="servicios.lineas.almacenamiento.resumen"></p>
+      </article>
+
     </div>
-  </section>
-
-  <!-- Serveis -->
-  <section class="services">
-    <h3 data-key="servicios.titulo_seccion"></h3>
-    <h2 data-key="servicios.destacado_titulo"></h2>
-    <p data-key="servicios.p1"></p>
-    <p data-key="servicios.p2"></p>
-    <p data-key="servicios.p3"></p>
-  </section>
-
-  <div class="cards-grid">
-
-    <article class="service-card" data-modal="modal-industrial" role="button" tabindex="0">
-      <h3 data-key="servicios.lineas.industrial.titulo"></h3>
-      <p data-key="servicios.lineas.industrial.resumen"></p>
-    </article>
-
-    <article class="service-card" data-modal="modal-criobiologia" role="button" tabindex="0">
-      <h3 data-key="servicios.lineas.criobiologia.titulo"></h3>
-      <p data-key="servicios.lineas.criobiologia.resumen"></p>
-    </article>
-
-    <article class="service-card" data-modal="modal-monitorizacion" role="button" tabindex="0">
-      <h3 data-key="servicios.lineas.monitorizacion.titulo"></h3>
-      <p data-key="servicios.lineas.monitorizacion.resumen"></p>
-    </article>
-
-    <article class="service-card" data-modal="modal-almacenamiento" role="button" tabindex="0">
-      <h3 data-key="servicios.lineas.almacenamiento.titulo"></h3>
-      <p data-key="servicios.lineas.almacenamiento.resumen"></p>
-    </article>
-
-  </div>
-
-  <div class="section-divider section-divider--footer" aria-hidden="true">
-    <span></span>
-    <i>◆</i>
-    <span></span>
-  </div>
-  </section>
-
-  <section class="solution-showcase">
-    <div class="solution-showcase__header">
-      <h2 data-key="soluciones.titulo"></h2>
-    </div>
-    <div id="solution-grid" class="solution-grid" aria-live="polite"></div>
 
     <div class="section-divider section-divider--footer" aria-hidden="true">
       <span></span>
-      <i>◇</i>
+      <i>◆</i>
       <span></span>
     </div>
-  </section>
+    </section>
 
-  <div id="solution-modals"></div>
+    <section class="solution-showcase">
+      <div class="solution-showcase__header">
+        <h2 data-key="soluciones.titulo"></h2>
+      </div>
+      <div id="solution-grid" class="solution-grid" aria-live="polite"></div>
 
-  <!-- Modals de serveis -->
+      <div class="section-divider section-divider--footer" aria-hidden="true">
+        <span></span>
+        <i>◇</i>
+        <span></span>
+      </div>
+    </section>
 
-  <dialog id="modal-industrial" class="custom-modal">
-    <div class="modal-content">
-      <h3 data-key="servicios.lineas.industrial.titulo" autofocus></h3>
+    <div id="solution-modals"></div>
 
-      <p class="subtitle" data-key="servicios.lineas.industrial.descripcion"></p>
+    <!-- Modals de serveis -->
 
-      <ul>
-        <li>
-          <strong data-key="servicios.etiquetas.beneficios"></strong>
-          <span data-key="servicios.lineas.industrial.beneficios"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.productos"></strong>
-          <span data-key="servicios.lineas.industrial.productos"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.aplicaciones"></strong>
-          <span data-key="servicios.lineas.industrial.aplicaciones"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.diferencial"></strong>
-          <span data-key="servicios.lineas.industrial.diferencial"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.clientes"></strong>
-          <span data-key="servicios.lineas.industrial.clientes"></span>
-        </li>
-      </ul>
+    <dialog id="modal-industrial" class="custom-modal">
+      <div class="modal-content">
+        <h3 data-key="servicios.lineas.industrial.titulo" autofocus></h3>
 
-      <p class="modal-footer-note" data-key="servicios.lineas.industrial.nota"></p>
+        <p class="subtitle" data-key="servicios.lineas.industrial.descripcion"></p>
 
-      <button class="close-modal-btn" data-key="servicios.boton_cerrar"></button>
-    </div>
-  </dialog>
+        <ul>
+          <li>
+            <strong data-key="servicios.etiquetas.beneficios"></strong>
+            <span data-key="servicios.lineas.industrial.beneficios"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.productos"></strong>
+            <span data-key="servicios.lineas.industrial.productos"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.aplicaciones"></strong>
+            <span data-key="servicios.lineas.industrial.aplicaciones"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.diferencial"></strong>
+            <span data-key="servicios.lineas.industrial.diferencial"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.clientes"></strong>
+            <span data-key="servicios.lineas.industrial.clientes"></span>
+          </li>
+        </ul>
 
+        <p class="modal-footer-note" data-key="servicios.lineas.industrial.nota"></p>
 
-  <dialog id="modal-criobiologia" class="custom-modal">
-    <div class="modal-content">
-      <h3 data-key="servicios.lineas.criobiologia.titulo" autofocus></h3>
-
-      <p class="subtitle" data-key="servicios.lineas.criobiologia.descripcion"></p>
-
-      <ul>
-        <li>
-          <strong data-key="servicios.etiquetas.beneficios"></strong>
-          <span data-key="servicios.lineas.criobiologia.beneficios"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.productos"></strong>
-          <span data-key="servicios.lineas.criobiologia.productos"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.aplicaciones"></strong>
-          <span data-key="servicios.lineas.criobiologia.aplicaciones"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.diferencial"></strong>
-          <span data-key="servicios.lineas.criobiologia.diferencial"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.clientes"></strong>
-          <span data-key="servicios.lineas.criobiologia.clientes"></span>
-        </li>
-      </ul>
-
-      <p class="modal-footer-note" data-key="servicios.lineas.criobiologia.nota"></p>
-
-      <button class="close-modal-btn" data-key="servicios.boton_cerrar"></button>
-    </div>
-  </dialog>
+        <button class="close-modal-btn" data-key="servicios.boton_cerrar"></button>
+      </div>
+    </dialog>
 
 
-  <dialog id="modal-monitorizacion" class="custom-modal">
-    <div class="modal-content">
-      <h3 data-key="servicios.lineas.monitorizacion.titulo" autofocus></h3>
+    <dialog id="modal-criobiologia" class="custom-modal">
+      <div class="modal-content">
+        <h3 data-key="servicios.lineas.criobiologia.titulo" autofocus></h3>
 
-      <p class="subtitle" data-key="servicios.lineas.monitorizacion.descripcion"></p>
+        <p class="subtitle" data-key="servicios.lineas.criobiologia.descripcion"></p>
 
-      <ul>
-        <li>
-          <strong data-key="servicios.etiquetas.beneficios"></strong>
-          <span data-key="servicios.lineas.monitorizacion.beneficios"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.productos"></strong>
-          <span data-key="servicios.lineas.monitorizacion.productos"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.aplicaciones"></strong>
-          <span data-key="servicios.lineas.monitorizacion.aplicaciones"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.diferencial"></strong>
-          <span data-key="servicios.lineas.monitorizacion.diferencial"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.clientes"></strong>
-          <span data-key="servicios.lineas.monitorizacion.clientes"></span>
-        </li>
-      </ul>
+        <ul>
+          <li>
+            <strong data-key="servicios.etiquetas.beneficios"></strong>
+            <span data-key="servicios.lineas.criobiologia.beneficios"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.productos"></strong>
+            <span data-key="servicios.lineas.criobiologia.productos"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.aplicaciones"></strong>
+            <span data-key="servicios.lineas.criobiologia.aplicaciones"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.diferencial"></strong>
+            <span data-key="servicios.lineas.criobiologia.diferencial"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.clientes"></strong>
+            <span data-key="servicios.lineas.criobiologia.clientes"></span>
+          </li>
+        </ul>
 
-      <p class="modal-footer-note" data-key="servicios.lineas.monitorizacion.nota"></p>
+        <p class="modal-footer-note" data-key="servicios.lineas.criobiologia.nota"></p>
 
-      <button class="close-modal-btn" data-key="servicios.boton_cerrar"></button>
-    </div>
-  </dialog>
+        <button class="close-modal-btn" data-key="servicios.boton_cerrar"></button>
+      </div>
+    </dialog>
 
 
-  <dialog id="modal-almacenamiento" class="custom-modal">
-    <div class="modal-content">
-      <h3 data-key="servicios.lineas.almacenamiento.titulo" autofocus></h3>
+    <dialog id="modal-monitorizacion" class="custom-modal">
+      <div class="modal-content">
+        <h3 data-key="servicios.lineas.monitorizacion.titulo" autofocus></h3>
 
-      <p class="subtitle" data-key="servicios.lineas.almacenamiento.descripcion"></p>
+        <p class="subtitle" data-key="servicios.lineas.monitorizacion.descripcion"></p>
 
-      <ul>
-        <li>
-          <strong data-key="servicios.etiquetas.beneficios"></strong>
-          <span data-key="servicios.lineas.almacenamiento.beneficios"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.productos"></strong>
-          <span data-key="servicios.lineas.almacenamiento.productos"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.aplicaciones"></strong>
-          <span data-key="servicios.lineas.almacenamiento.aplicaciones"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.diferencial"></strong>
-          <span data-key="servicios.lineas.almacenamiento.diferencial"></span>
-        </li>
-        <li>
-          <strong data-key="servicios.etiquetas.clientes"></strong>
-          <span data-key="servicios.lineas.almacenamiento.clientes"></span>
-        </li>
-      </ul>
+        <ul>
+          <li>
+            <strong data-key="servicios.etiquetas.beneficios"></strong>
+            <span data-key="servicios.lineas.monitorizacion.beneficios"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.productos"></strong>
+            <span data-key="servicios.lineas.monitorizacion.productos"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.aplicaciones"></strong>
+            <span data-key="servicios.lineas.monitorizacion.aplicaciones"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.diferencial"></strong>
+            <span data-key="servicios.lineas.monitorizacion.diferencial"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.clientes"></strong>
+            <span data-key="servicios.lineas.monitorizacion.clientes"></span>
+          </li>
+        </ul>
 
-      <p class="modal-footer-note" data-key="servicios.lineas.almacenamiento.nota"></p>
+        <p class="modal-footer-note" data-key="servicios.lineas.monitorizacion.nota"></p>
 
-      <button class="close-modal-btn" data-key="servicios.boton_cerrar"></button>
-    </div>
-  </dialog>
-  <script src="js/main.js"></script>
-  <script src="./js/footer.js"></script>
+        <button class="close-modal-btn" data-key="servicios.boton_cerrar"></button>
+      </div>
+    </dialog>
+
+
+    <dialog id="modal-almacenamiento" class="custom-modal">
+      <div class="modal-content">
+        <h3 data-key="servicios.lineas.almacenamiento.titulo" autofocus></h3>
+
+        <p class="subtitle" data-key="servicios.lineas.almacenamiento.descripcion"></p>
+
+        <ul>
+          <li>
+            <strong data-key="servicios.etiquetas.beneficios"></strong>
+            <span data-key="servicios.lineas.almacenamiento.beneficios"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.productos"></strong>
+            <span data-key="servicios.lineas.almacenamiento.productos"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.aplicaciones"></strong>
+            <span data-key="servicios.lineas.almacenamiento.aplicaciones"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.diferencial"></strong>
+            <span data-key="servicios.lineas.almacenamiento.diferencial"></span>
+          </li>
+          <li>
+            <strong data-key="servicios.etiquetas.clientes"></strong>
+            <span data-key="servicios.lineas.almacenamiento.clientes"></span>
+          </li>
+        </ul>
+
+        <p class="modal-footer-note" data-key="servicios.lineas.almacenamiento.nota"></p>
+
+        <button class="close-modal-btn" data-key="servicios.boton_cerrar"></button>
+      </div>
+    </dialog>
+    <script src="js/main.js" defer></script>
+    <script src="./js/footer.js" defer></script>
+  </main>
 </body>
 
 </html>
