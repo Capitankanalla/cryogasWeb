@@ -35,8 +35,8 @@ function carregarFooterJSON() {
             // }
 
             // Frase
-            // const frase = document.getElementById("footer-frase");
-            // if (frase) frase.textContent = data.frase;
+             const frase = document.getElementById("footer-frase");
+             if (frase) frase.textContent = data.frase;
 
             // Logo ISO
             // const logo1 = document.getElementById("footer-logo1");
