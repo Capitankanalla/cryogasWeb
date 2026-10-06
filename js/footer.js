@@ -41,18 +41,8 @@ function carregarFooterJSON() {
             // Logo ISO
             const logo1 = document.getElementById("footer-logo1");
             if (logo1) {
-                //logo1.src = data.logo1;
-                //logo1.alt = "Logo ISO";
-                // Solució per validar la carrega de la imatge ISO, ja que no es troba a la ruta especificada
-                if (logo && data.logo) {
-                    logo.src = new URL(data.logo, window.location.origin + window.location.pathname).href;
-                    logo.alt = data.empresa;
-                }
-
-                if (logo1 && data.logo1) {
-                    logo1.src = new URL(data.logo1, window.location.origin + window.location.pathname).href;
-                    logo1.alt = "Logo ISO";
-                }
+                logo1.src = data.logo1;
+                logo1.alt = "Logo ISO";
             }
 
             // Contacte
