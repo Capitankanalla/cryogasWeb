@@ -118,7 +118,7 @@ function bindCloseButtons() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('js/json/es.json')
+  fetch('./js/json/es.json')
     .then(response => response.json())
     .then(data => {
       const stats = document.querySelectorAll('.stat-number');

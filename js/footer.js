@@ -1,7 +1,7 @@
 // Carregar footer.html i després injectar dades
 const COOKIE_CONSENT_KEY = 'cookieConsent';
 
-fetch('/html/footer.html')
+fetch('./html/footer.html')
     .then(res => {
         if (!res.ok) throw new Error(`Footer no trobat: ${res.status}`);
         return res.text();
@@ -20,7 +20,7 @@ fetch('/html/footer.html')
 function carregarFooterJSON() {
     const lang = window.currentLang || "ca";
     const langFile = lang.charAt(0).toUpperCase() + lang.slice(1);
-    fetch(`/js/json/footerEs.json`)
+    fetch(`./js/json/footerEs.json`)
         .then(res => {
             if (!res.ok) throw new Error(`JSON del footer no trobat: ${res.status}`);
             return res.json();
