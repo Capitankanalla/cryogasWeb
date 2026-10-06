@@ -27,23 +27,11 @@ function carregarFooterJSON() {
         })
         .then(data => {
 
-            // Logo
-            // const logo = document.getElementById("footer-logo");
-            // if (logo) {
-            //     logo.src = data.logo;
-            //     logo.alt = data.empresa;
-            // }
 
             // Frase
              const frase = document.getElementById("footer-frase");
              if (frase) frase.textContent = data.frase;
 
-            // Logo ISO
-            // const logo1 = document.getElementById("footer-logo1");
-            // if (logo1) {
-            //     logo1.src = data.logo1;
-            //     logo1.alt = "Logo ISO";
-            // }
 
             // Contacte
             const contacteTitol = document.getElementById("footer-contacte-titol");
