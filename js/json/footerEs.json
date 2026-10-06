@@ -1,6 +1,6 @@
 {
-    "logo": "/img/logoFooter.webp",
-    "logo1": "/img/logoIso.png",
+    "logo": "./img/logoFooter.webp",
+    "logo1": "./img/logoIso.png",
     "empresa": "CryoGas S.L.",
     "frase": "Especialistas en soluciones criogénicas desde 1998. Ofrecemos servicios integrales de mantenimiento, instalación y suministro de componentes para la industria y laboratorios.",
     "contacte": "Contacto",
