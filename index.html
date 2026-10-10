@@ -41,10 +41,10 @@
     <nav>
       <ul>
         <li><a href="#inicio" data-key="navegacion.inicio"></a></li>
-        <li><a href="#empresa" data-key="navegacion.empresa"></a></li>
+        <li><a href="#servicios" data-key="navegacion.servicios"></a></li>
         <li><a href="#industrial" data-key="navegacion.industrial"></a></li>
         <li><a href="#criobiologia" data-key="navegacion.criobiologia"></a></li>
-        <li><a href="#blog" data-key="navegacion.blog"></a></li>
+        <li><a href="#soluciones" data-key="navegacion.soluciones"></a></li>
         <li><a href="#contacto" data-key="navegacion.contacto"></a></li>
       </ul>
     </nav>
@@ -52,7 +52,7 @@
 
   <main>
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="inicio">
       <div class="hero-overlay"></div>
 
       <div class="hero-inner">
@@ -79,7 +79,7 @@
     </section>
 
     <!-- Serveis -->
-    <section class="services">
+    <section class="services" id="servicios">
       <h3 data-key="servicios.titulo_seccion"></h3>
       <h2 data-key="servicios.destacado_titulo"></h2>
       <p data-key="servicios.p1"></p>
@@ -89,12 +89,12 @@
 
     <div class="cards-grid">
 
-      <article class="service-card" data-modal="modal-industrial" role="button" tabindex="0">
+      <article class="service-card" id="industrial" data-modal="modal-industrial" role="button" tabindex="0">
         <h3 data-key="servicios.lineas.industrial.titulo"></h3>
         <p data-key="servicios.lineas.industrial.resumen"></p>
       </article>
 
-      <article class="service-card" data-modal="modal-criobiologia" role="button" tabindex="0">
+      <article class="service-card" id="criobiologia" data-modal="modal-criobiologia" role="button" tabindex="0">
         <h3 data-key="servicios.lineas.criobiologia.titulo"></h3>
         <p data-key="servicios.lineas.criobiologia.resumen"></p>
       </article>
@@ -116,9 +116,8 @@
       <i>◆</i>
       <span></span>
     </div>
-    </section>
 
-    <section class="solution-showcase">
+    <section class="solution-showcase" id="soluciones">
       <div class="solution-showcase__header">
         <h2 data-key="soluciones.titulo"></h2>
       </div>
@@ -137,7 +136,7 @@
 
     <dialog id="modal-industrial" class="custom-modal">
       <div class="modal-content">
-        <h3 data-key="servicios.lineas.industrial.titulo" autofocus></h3>
+        <h3 data-key="servicios.lineas.industrial.titulo" tabindex="-1"></h3>
 
         <p class="subtitle" data-key="servicios.lineas.industrial.descripcion"></p>
 
@@ -173,7 +172,7 @@
 
     <dialog id="modal-criobiologia" class="custom-modal">
       <div class="modal-content">
-        <h3 data-key="servicios.lineas.criobiologia.titulo" autofocus></h3>
+        <h3 data-key="servicios.lineas.criobiologia.titulo" tabindex="-1"></h3>
 
         <p class="subtitle" data-key="servicios.lineas.criobiologia.descripcion"></p>
 
@@ -209,7 +208,7 @@
 
     <dialog id="modal-monitorizacion" class="custom-modal">
       <div class="modal-content">
-        <h3 data-key="servicios.lineas.monitorizacion.titulo" autofocus></h3>
+        <h3 data-key="servicios.lineas.monitorizacion.titulo" tabindex="-1"></h3>
 
         <p class="subtitle" data-key="servicios.lineas.monitorizacion.descripcion"></p>
 
@@ -245,7 +244,7 @@
 
     <dialog id="modal-almacenamiento" class="custom-modal">
       <div class="modal-content">
-        <h3 data-key="servicios.lineas.almacenamiento.titulo" autofocus></h3>
+        <h3 data-key="servicios.lineas.almacenamiento.titulo" tabindex="-1"></h3>
 
         <p class="subtitle" data-key="servicios.lineas.almacenamiento.descripcion"></p>
 

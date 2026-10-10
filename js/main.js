@@ -55,16 +55,15 @@ function resetModalScroll(modal) {
 function focusModalTop(modal) {
   if (!modal) return;
 
-  requestAnimationFrame(() => {
-    modal.focus({ preventScroll: true });
-    resetModalScroll(modal);
-  });
+  resetModalScroll(modal);
+  const heading = modal.querySelector('h3');
+  if (heading) heading.focus({ preventScroll: true });
+  else modal.focus({ preventScroll: true });
 }
 
 function prepareModalButtons(modal) {
   const closeButton = modal.querySelector('.close-modal-btn');
   if (closeButton) {
-    closeButton.setAttribute('tabindex', '-1');
     closeButton.autofocus = false;
   }
 }
@@ -104,7 +103,6 @@ function bindModalCards(selector) {
 
 function bindCloseButtons() {
   document.querySelectorAll('.close-modal-btn').forEach(button => {
-    button.setAttribute('tabindex', '-1');
     button.autofocus = false;
     button.addEventListener('click', () => {
       const dialog = button.closest('dialog');
@@ -151,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <article class="solution-card" data-modal="modal-solution-${item.id}" role="button" tabindex="0">
             <img src="${item.image}" alt="${item.titulo}">
             <div class="solution-card__content">
-              <h3>${item.titulo}</h3>
+              <h3 tabindex="-1">${item.titulo}</h3>
               <p>${item.resumen}</p>
             </div>
           </article>
