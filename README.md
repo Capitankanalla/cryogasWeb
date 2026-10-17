@@ -1,7 +1,8 @@
 # 🧊 CryoGas SL — Web Corporate & Landing Page
 
 ## Projecte d´actualització de la web de cryogas a dev amb vanilla.
-⚠️ Aquest projecte és només una demo per mostrar el disseny i les funcionalitats principals. Tots els drets reservats fins al lliurament al client.
+⚠️ Aquest projecte és només una demo per mostrar el disseny i les funcionalitats principals. Tots els drets reservats.
+**Aquesta demo no concedeix cap dret d'ús, còpia ni modificació.**
 
 Si t'interessa un projecte similar o t'agrada el que estàs veient contacta'm per privat o al mail: [nanoxtechnologies@gmail.com]
 
