@@ -1,12 +1,17 @@
 # 🧊 CryoGas SL — Web Corporate & Landing Page
 
-Reconstrucció completa i migració del lloc web corporatiu de **CryoGas SL** des de WordPress cap a una arquitectura lleugera, ràpida i personalitzada basada en **Node.js** i **Express**.
+## Projecte d´actualització de la web de cryogas a dev amb vanilla.
+⚠️ Aquest projecte és només una demo per mostrar el disseny i les funcionalitats principals. Tots els drets reservats fins al lliurament al client.
+
+Si t'interessa un projecte similar o t'agrada el que estàs veient contacta'm per privat o al mail: [nanoxtechnologies@gmail.com]
+
+Reconstrucció completa i migració del lloc web corporatiu de **CryoGas SL** des de WordPress cap a una **arquitectura lleugera, ràpida i personalitzada** basada en **Node.js** i **Express**.
 
 ## 🎯 Objectius del Projecte
 - **Rendiment:** Millorar la velocitat de càrrega i obtenir un score de 95+ a Google Lighthouse.
 - **Seguretat:** Eliminar les vulnerabilitats associades al core i plugins de WordPress.
 - **Control total:** Disseny modular i codi net sense dependències innecessàries.
-- **SEO Mantenut:** Conservar l'estructura d'URLs i meta-etiquetes per al posicionament actual.
+- **SEO Mantingut:** Conservar l'estructura d'URLs i meta-etiquetes per al posicionament actual.
 
 ## 🚀 Stack Tecnològic
 - **Backend:** Node.js, Express.js
@@ -16,9 +21,5 @@ Reconstrucció completa i migració del lloc web corporatiu de **CryoGas SL** de
 
 ---
 
-## 🛠️ Instal·lació i Desenvolupament Local
+## 🛠️ Instal·lació i Desenvolupament desplegat a pages
 
-1. **Clonar el repositori:**
-   ```bash
-   git clone [https://github.com/el-teu-usuari/cryogas-web.git](https://github.com/el-teu-usuari/cryogas-web.git)
-   cd cryogas-web
